@@ -30,7 +30,7 @@ def main():
 			ret, frame = camera.read()
 			#Convert the image into gray scale
 			gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-			#Detect face in the image
+			#Detect faces in the image
 			faces = face_classifier.detectMultiScale(gray_image)
 
 			for x, y, w, h in faces:
