@@ -8,7 +8,7 @@ import numpy as np
 train_path = "data/train+val"
 test_path = "data/test"
 
-#Training set augentation and normalization
+#Training set augmentation and normalization
 train_datagen = ImageDataGenerator(rescale=1/255,
 							rotation_range=30,
 							shear_range=0.3,
@@ -21,13 +21,13 @@ train_datagen = ImageDataGenerator(rescale=1/255,
 #Testing set normalization
 test_datagen = ImageDataGenerator(rescale=1/255)
 
-#Get training data "train_path" directory
+#Get training data from "train_path" directory
 train = train_datagen.flow_from_directory(train_path,
 										batch_size=32,
 										target_size=(48,48),
 										shuffle= True)
 
-#Get testing data "test_path" directory
+#Get testing data from "test_path" directory
 test = test_datagen.flow_from_directory(test_path,
 										batch_size=32,
 										target_size=(48,48),
