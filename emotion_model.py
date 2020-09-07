@@ -2,7 +2,6 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import Conv2D, BatchNormalization, MaxPooling2D, Flatten, Dense, Dropout
 import numpy as np
-import matplotlib as plt 
 
 #labels = ['Angry', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
