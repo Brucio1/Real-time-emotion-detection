@@ -1,6 +1,10 @@
 # Real-time-emotion-detection
 This program uses your local webcam to recognise 6 different emotions; Happiness, Sadness, Angry, Fear, Surprise and Neutral. Everything happens in real time using OpenCV and Convolution Neural Networks. 
 
+![](emotion_detection_demo.gif)
+
+(Excuse the silly faces lol)
+
 # Installation
 - Python 3.6 or below
 - Tensorflow 2.0 or higher
