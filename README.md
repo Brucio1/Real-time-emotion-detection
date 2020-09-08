@@ -12,7 +12,7 @@ This program uses your local webcam to recognise 6 different emotions; Happiness
 - Numpy
 
 # Dataset and xml file
-Xml file: https://opencv.org/releases/
+Xml file: https://opencv.org/releases/ '\n'
 Kaggle dataset: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
 The original dataset had 7 different class labels. I got rid of "Disgust" as it only had <500 training examples, not enough to properly train the model.
