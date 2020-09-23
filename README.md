@@ -6,7 +6,7 @@ This program uses your local webcam to recognise 6 different emotions; Happiness
 (Excuse the silly faces lol)
 
 # Installation
-- Python 3.6 or below
+- Python 3.X
 - Tensorflow 2.0 or higher
 - OpenCV
 - Numpy
