@@ -11,6 +11,11 @@ This program uses your local webcam to recognise 6 different emotions; Happiness
 - OpenCV
 - Numpy
 
+To run it on your local machine, download all files into the same folder. Run "emotion_model.py" to train the model and then "emotion_detection.py" to start the program.
+```bash
+python3 emotion_detection.py
+```
+
 # Dataset and xml file
 Xml file: https://opencv.org/releases/
 
